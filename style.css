@@ -33,18 +33,30 @@ body {
 }
 .card {
 	background-color: var(--primary-500);
-	padding: 1.5rem 1.5rem;
+	padding: 2rem;
 	border-radius: 1rem;
+	width: 21.875rem;
 }
 .card-icon {
 	background-color: var(--gray-500);
 	width: fit-content;
-	padding: 0.5rem;
-	border-radius: 50rem;
+	padding: 0.75rem;
+	border-radius: 50%;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	margin-bottom: 1rem;
 }
+
+.card-title {
+	color: var(--white);
+}
+
+/* Utils */
+.hidden {
+	display: none;
+}
+
 /* Atribution section provided by Frontend Mentor */
 .attribution {
 	font-size: 11px;
