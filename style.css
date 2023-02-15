@@ -23,7 +23,7 @@
 
 body {
 	display: grid;
-	height: 100vh;
+	min-height: 100vh;
 	place-items: center;
 	background-color: var(--clr-bg);
 	font-family: var(--ff-primary);
