@@ -9,7 +9,6 @@
 	--gray-500: hsla(216, 12%, 54%, 0.103);
 
 	--ff-primary: "Overpass", sans-serif;
-	--ff-secondary: "Open Sans", sans-serif;
 	--fw-400: 400;
 	--fw-700: 600;
 }
@@ -26,8 +25,26 @@ body {
 	display: grid;
 	height: 100vh;
 	place-items: center;
+	background-color: var(--clr-bg);
+	font-family: var(--ff-primary);
 }
-
+.container {
+	padding: 0 2rem;
+}
+.card {
+	background-color: var(--primary-500);
+	padding: 1.5rem 1.5rem;
+	border-radius: 1rem;
+}
+.card-icon {
+	background-color: var(--gray-500);
+	width: fit-content;
+	padding: 0.5rem;
+	border-radius: 50rem;
+	display: flex;
+	align-items: center;
+	margin-bottom: 1rem;
+}
 /* Atribution section provided by Frontend Mentor */
 .attribution {
 	font-size: 11px;
