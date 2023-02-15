@@ -47,9 +47,32 @@ body {
 	justify-content: center;
 	margin-bottom: 1rem;
 }
-
 .card-title {
 	color: var(--white);
+	margin-bottom: 1rem;
+}
+.card-description {
+	color: var(--gray-300);
+	font-size: 0.875rem;
+	margin-bottom: 2rem;
+}
+.ratings-section {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 1rem;
+	font-size: 0.875rem;
+}
+.ratings-section span {
+	width: 3rem;
+	height: 3rem;
+	background-color: var(--gray-500);
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 1rem;
+	cursor: pointer;
 }
 
 /* Utils */
