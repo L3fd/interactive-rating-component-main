@@ -95,6 +95,24 @@ body {
 	color: var(--accent-500);
 }
 
+.thanks-card {
+	text-align: center;
+}
+
+.thanks-card img {
+	margin-top: 0.5rem;
+}
+
+.ratings-result {
+	background-color: var(--gray-500);
+	color: var(--accent-500);
+	width: fit-content;
+	padding: 0.875rem;
+	border-radius: 2rem;
+	margin: 1rem auto;
+	font-size: 0.875rem;
+}
+
 /* Utils */
 .hidden {
 	display: none;
