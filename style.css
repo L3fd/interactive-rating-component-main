@@ -67,12 +67,32 @@ body {
 	width: 3rem;
 	height: 3rem;
 	background-color: var(--gray-500);
+	color: var(--gray-300);
 	border-radius: 50%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	margin-bottom: 1rem;
 	cursor: pointer;
+}
+.ratings-section span:hover {
+	background-color: var(--accent-500);
+	color: var(--white);
+}
+
+.submit-btn {
+	width: 100%;
+	border: none;
+	border-radius: 2rem;
+	background-color: var(--accent-500);
+	color: var(--white);
+	padding: 0.875rem;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+.submit-btn:hover {
+	background-color: var(--white);
+	color: var(--accent-500);
 }
 
 /* Utils */
