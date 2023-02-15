@@ -117,11 +117,16 @@ body {
 .hidden {
 	display: none;
 }
-
+.checked {
+	background-color: var(--accent-500) !important;
+	color: var(--white) !important;
+} /* Essa classe teve que ser marcado como importante ou não herdava os estilos ao serem clicados */
 /* Atribution section provided by Frontend Mentor */
 .attribution {
 	font-size: 11px;
 	text-align: center;
+	color: var(--white);
+	margin-top: 2rem;
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
