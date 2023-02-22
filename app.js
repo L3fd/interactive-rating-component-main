@@ -24,6 +24,6 @@ submitBtn.addEventListener("click", () => {
 		thanksCard.classList.remove("hidden");
 		ratingCard.classList.add("hidden");
 	} else {
-		alert("Please choose a rating for our service before submiting");
+		alert("Please choose a rating before submiting");
 	}
 });
